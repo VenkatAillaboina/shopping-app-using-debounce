@@ -1,0 +1,133 @@
+.allProductsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .allProductsSection {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .allProductsContainer {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.productsHeading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .productsHeading {
+    font-size: 32px;
+  }
+}
+
+.productsLoaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .productsLoaderContainer {
+    width: 70%;
+  }
+}
+
+.productsList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.failureViewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .failureViewContainer {
+    width: 800px;
+  }
+}
+
+.failureViewImage {
+  width: 260px;
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .failureViewImage {
+    width: 320px;
+  }
+}
+
+.failureViewHeading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #12022f;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .failureViewHeading {
+    font-size: 28px;
+  }
+}
+
+.failureViewDescription {
+  font-size: 16px;
+  color: #475569;
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .failureViewDescription {
+    font-size: 18px;
+  }
+}
+
+.noProductsView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.noProductsImg {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.noProductsHeading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #12022f;
+  margin-bottom: 10px;
+}
+
+.noProductsDescription {
+  font-size: 16px;
+  color: #64748b;
+  max-width: 400px;
+}
